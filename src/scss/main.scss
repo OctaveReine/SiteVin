@@ -33,9 +33,39 @@ $container-max-widths: (
 
 @import "bootstrap/scss/bootstrap-grid";
 
+body {
+  font-family: "kohinoor-gujarati", sans-serif;
+}
+
 .banner {
   background-color: red;
 }
 .footer {
   background-color: red;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  padding: 12px 0px;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo {
+  scale: 80%;
+}
+
+.icones {
+  display: flex;
+  gap: 40px;
+}
+
+.icones img {
+  width: 37px;
 }
