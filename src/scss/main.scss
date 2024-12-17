@@ -11,15 +11,9 @@ a {
 img,
 video {
   display: block;
+  max-width: 100%;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
 // Largeur des gouttières
 $grid-gutter-width: 20px;
 // Taille maximum du container, selon les breakpoints
@@ -38,10 +32,11 @@ body {
 }
 
 .banner {
-  background-color: red;
-}
-.footer {
-  background-color: red;
+  background-image: url(../img/Banniere.jpg);
+  background-size: cover;
+  padding-top: 170px;
+  padding-bottom: 170px;
+  margin-bottom: 108px;
 }
 
 .header {
@@ -67,5 +62,112 @@ body {
 }
 
 .icones img {
-  width: 37px;
+  width: 25px;
+}
+
+.logo-blanc {
+  margin-left: 45%;
+}
+
+.banner-title {
+  color: #fff;
+  text-align: center;
+  font-family: Rafaella;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 64px;
+}
+
+.article1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.texte {
+  color: #5e2112;
+  text-align: center;
+  font-family: "Essay Text";
+  font-size: 40px;
+}
+
+.boutton {
+  display: flex;
+  height: 65px;
+  padding: 6px 83px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 26px;
+  background: #5e2112;
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-color: #e5dfcf;
+  padding-top: 40px;
+  padding-bottom: 45px;
+}
+
+.imagevins {
+  margin-bottom: 108px;
+}
+
+.footer {
+  color: rgba(94, 33, 18, 0.75);
+  text-align: justify;
+  font-family: "Kohinoor Gujarati";
+  font-size: 20px;
+  background-color: #e5dfcf;
+  margin-bottom: 151px;
+}
+
+.logor {
+  width: 39px;
+  height: 39px;
+}
+
+.minititre {
+  color: rgba(94, 33, 18, 0.75);
+  font-family: "Kohinoor Gujarati";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.titre {
+  color: rgba(94, 33, 18, 0.75);
+  font-family: "Kohinoor Gujarati";
+  font-size: 40px;
+  font-weight: 600;
+  border-bottom: solid 2px rgba(94, 33, 18, 0.75);
+  padding-bottom: 10px;
+  margin-bottom: 74px;
+}
+
+.texteinfo2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 53px;
+  color: rgba(94, 33, 18, 0.75);
+  font-family: "Kohinoor Gujarati";
+  font-size: 20px;
+  margin-bottom: 96px;
+}
+
+.titre1 {
+  gap: 74px;
+}
+
+.logo2 {
+  display: flex;
 }
